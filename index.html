@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Day 5 Assignment | Building an App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>
+            Week 6 Day 5 Assignment | Building an App
+        </h1>
+        <h2>
+            Instructions
+        </h2>
+        <section id="instructions">
+            <h3>
+                Part 1: Setup Your Project
+            </h3>
+            <ol>
+                <li>
+                    Name your repository simple-weather-app.
+                </li>
+                <li>
+                    Initialize it with index.html, script.js, and style.css files.
+                </li>
+            </ol>
+
+            <h3>
+                Part 2: Define the Weather Class
+            </h3>
+            <ol>
+                <li>
+                    In script.js, define a Weather class with a constructor that sets up properties such as temperature,
+                    description, and
+                    any other relevant data.
+                </li>
+                <li>
+                    Include methods for processing and displaying weather data.
+                </li>
+            </ol>
+
+            <h3>
+                Part 3: Interface for Weather Data Input
+            </h3>
+            <ol>
+                <li>
+                    In index.html, create a simple form that allows users to input a location (city or zipcode).
+                </li>
+                <li>
+                    Add a button to submit the form and fetch weather data.
+                </li>
+            </ol>
+
+            <h3>
+                Part 4: Fetch and Display Weather Data
+            </h3>
+            <ol>
+                <li>
+                    Use a weather API like Weatherbit to fetch weather data based on user input.
+                </li>
+                <li>
+                    Process the API response by creating an instance of your Weather class and display the data in a
+                    user-friendly format in
+                    your HTML.
+                </li>
+            </ol>
+
+            <h3>
+                Part 5: Styling and Testing
+            </h3>
+            <ol>
+                <li>
+                    Use style.css to style your weather app. Focus on creating a clean and readable layout.
+                </li>
+            </ol>
+
+            <h3>
+                Part 6: Deployment and Submission
+            </h3>
+            <ol>
+                <li>
+                    Push your code to GitHub and deploy your project using GitHub Pages or a similar service.
+                </li>
+                <li>
+                    Provide the URL link to your GitHub repository and the live deployment as your assignment
+                    submission.
+                </li>
+            </ol>
+        </section>
+
+        <h2>Weather App</h2>
+        <form id="zipcode-input">
+            <label>
+                Zip:
+                <input type="text" name="zip" placeholder="Enter zip code..." id="zip">
+            </label>
+            <button>Get Weather!</button>
+        </form>
+        <section id="weather-display">
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
